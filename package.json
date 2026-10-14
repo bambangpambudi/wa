@@ -1,0 +1,26 @@
+{
+  "name": "whatsapp-store-bot",
+  "version": "4.14.17",
+  "private": true,
+  "type": "module",
+  "main": "index.js",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "latest",
+    "axios": "latest",
+    "chalk": "latest",
+    "ffmpeg-static": "latest",
+    "node-webpmux": "latest",
+    "pino": "latest",
+    "qrcode-terminal": "latest",
+    "readline-sync": "latest",
+    "sharp": "latest",
+    "better-sqlite3": "latest"
+  }
+}
